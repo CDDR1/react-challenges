@@ -1,0 +1,38 @@
+html,
+body,
+#root,
+main {
+  height: 100%;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.color-display {
+  height: 150px;
+}
+
+.option-btn-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.option-btn {
+  padding: 8px;
+}
+
+.message {
+  text-align: center;
+  font-size: larger;
+  margin: 0;
+}
